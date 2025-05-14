@@ -1,0 +1,1250 @@
+{
+  "sets": [
+    {
+      "id": 1,
+      "name": "Сет Танейма",
+      "description": "Танейма унагі, тайнема лосось, танейма копчений лосось, султан",
+      "price": 535,
+      "image": "imgs/placeholder.jpg",
+      "weight": 830,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Сет Дракон",
+      "description": "Червоний дракон, філадельфія, срібний дракон, амеріка рол",
+      "price": 765,
+      "image": "imgs/placeholder.jpg",
+      "weight": 950,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Хот Сет",
+      "description": "Хотто з лососем, хотто з креветкою, хотто мідія, хотто унагі",
+      "price": 605,
+      "image": "imgs/placeholder.jpg",
+      "weight": 800,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 4,
+      "name": "Сет Блек енд Вайт",
+      "description": "Рол Ебі Блек, рол Колорадо, рол сакура, рол Магуро",
+      "price": 600,
+      "image": "imgs/placeholder.jpg",
+      "weight": 810,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 5,
+      "name": "Сет Вашингтон",
+      "description": "Пітсбург, америка рол, канадський, філадельфія, каліфорнія, арізона",
+      "price": 1019,
+      "image": "imgs/placeholder.jpg",
+      "weight": 1340,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 6,
+      "name": "Сет Гурман",
+      "description": "Філадельфія рол, танейма унагі, ханамі краб, мон рол",
+      "price": 600,
+      "image": "imgs/placeholder.jpg",
+      "weight": 910,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 7,
+      "name": "Сет Фаворит",
+      "description": "Філадельфія рол, грін рол, ханамі рол, рол з вугрем",
+      "price": 600,
+      "image": "imgs/placeholder.jpg",
+      "weight": 810,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 8,
+      "name": "Сет Бінго",
+      "description": "Фудзі рол, огамі рол, саторі рол, такао рол",
+      "price": 350,
+      "image": "imgs/placeholder.jpg",
+      "weight": 760,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 9,
+      "name": "Сет Гранд",
+      "description": "Чіз рол, торі рол, дабл чіз рол, сурімі рол",
+      "price": 350,
+      "image": "imgs/placeholder.jpg",
+      "weight": 900,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 10,
+      "name": "Сет Філадельфія",
+      "description": "Філадельфія чілі, філадельфія краб, філадельфія ДеЛюкс, тайфун",
+      "price": 899,
+      "image": "imgs/placeholder.jpg",
+      "weight": 940,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 11,
+      "name": "Сет Мега Хот",
+      "description": "Хотто з лососем, хотто з креветкою, хотто мідія, хотто унагі, хотто ебі, хотто сурімі",
+      "price": 835,
+      "image": "imgs/placeholder.jpg",
+      "weight": 1320,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 12,
+      "name": "Сет Мікс",
+      "description": "Чіз рол, футо макі окунь, макі креветка, чіз сурімі",
+      "price": 425,
+      "image": "imgs/placeholder.jpg",
+      "weight": 740,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 13,
+      "name": "Сет Макі сет",
+      "description": "Футо макі мідії, футо макі окунь, макі з тунцем, макі з лососем",
+      "price": 479,
+      "image": "imgs/placeholder.jpg",
+      "weight": 690,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 14,
+      "name": "Сет Святковий",
+      "description": "Філадельфія рол, танейма унагі, ханамі рол, танукі спайс",
+      "price": 605,
+      "image": "imgs/placeholder.jpg",
+      "weight": 900,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 15,
+      "name": "Сет Преміум Гриль",
+      "description": "Філадельфія гриль, гранд лосось, унагі блек, блек чіз",
+      "price": 580,
+      "image": "imgs/placeholder.jpg",
+      "weight": 1000,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 16,
+      "name": "Сет 'Морський'",
+      "description": "Інджой, міо, нобу, спайс краб",
+      "price": 499,
+      "image": "imgs/placeholder.jpg",
+      "weight": 965,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 17,
+      "name": "Сет VIP",
+      "description": "Фіш рол, Голден Рол, Філадельфія преміум",
+      "price": 799,
+      "image": "imgs/placeholder.jpg",
+      "weight": 1100,
+      "isNew": true,
+      "onSale": ""
+    },
+    {
+      "id": 18,
+      "name": "Сет Міні Дракон",
+      "description": "Філадельфія 1/2, Філадельфія копчена 1/2, Червоний дракон 1/2, Філадельфія креветка 1/2, Срібний дракон 1/2, Восьминіг 1/2",
+      "price": 499,
+      "image": "imgs/placeholder.jpg",
+      "weight": 800,
+      "isNew": true,
+      "onSale": ""
+    },
+    {
+      "id": 19,
+      "name": "Сет ДеЛюкс",
+      "description": "Хотто з лососем, Хотто з тунцем, Наомі, Унагі Сезам",
+      "price": 625,
+      "image": "imgs/placeholder.jpg",
+      "weight": 1000,
+      "isNew": true,
+      "onSale": ""
+    }
+  ],
+  "rolls": [
+    {
+      "id": 1,
+      "name": "Спайсі краб",
+      "description": "Рис, норі, крабова паличка, огірок, сир філадельфія, соус спайс, ікра червона",
+      "price": 199,
+      "image": "imgs/placeholder.jpg",
+      "weight": 230,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Інджой",
+      "description": "Рис, норі, огірок, томаго, сир філадельфія, креветка, соус унагі",
+      "price": 140,
+      "image": "imgs/placeholder.jpg",
+      "weight": 255,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Міо",
+      "description": "Рис, норі, огірок, сир філадельфія, мідія, горіхова паста, чука, кунжут",
+      "price": 119,
+      "image": "imgs/placeholder.jpg",
+      "weight": 255,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 4,
+      "name": "Нобу",
+      "description": "Рис, норі, огірок, сир філадельфія, кальмар, соус спайс, кунжут чорний",
+      "price": 110,
+      "image": "imgs/placeholder.jpg",
+      "weight": 255,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 5,
+      "name": "Червоний дракон",
+      "description": "Рис, норі, тунець, огірок, авокадо, сир філадельфія",
+      "price": 195,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 6,
+      "name": "Дракон",
+      "description": "Рис, норі, вугор копчений, огірок, авокадо, ікра масаго, кунжут, соус унагі",
+      "price": 299,
+      "image": "imgs/placeholder.jpg",
+      "weight": 305,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 7,
+      "name": "Зелений дракон",
+      "description": "Рис, норі, вугор копчений, огірок, авокадо, ікра тобіко, кунжут, соус унагі",
+      "price": 195,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 8,
+      "name": "Сріблястий дракон",
+      "description": "Рис, норі, окунь, соус спайс, огірок, авокадо, сир філадельфія, ікра червона, ікра тобіко",
+      "price": 185,
+      "image": "imgs/placeholder.jpg",
+      "weight": 255,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 9,
+      "name": "Хатате спайс",
+      "description": "Рис, норі, гребінець, соус спайс, огірок, авокадо, сир філадельфія, кунжут",
+      "price": 162,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 10,
+      "name": "Дракон імператора",
+      "description": "Рис, норі, лосось, тунець, окунь, вугор, ікра тобіко, авокадо, огірок, сир філадельфія, соус унагі, кунжут, соус спайс",
+      "price": 185,
+      "image": "imgs/placeholder.jpg",
+      "weight": 250,
+      "isNew": "",
+      "onSale": ""
+    },
+
+    {
+      "id": 11,
+      "name": "Блек чіз",
+      "description": "Рис, норі, чорнило каракатиці, сир філадельфія, огірок, ікра тобіко, креветка, сир, соус спайс, чорний кунжут",
+      "price": 119,
+      "image": "imgs/placeholder.jpg",
+      "weight": 256,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 12,
+      "name": "Гранд лосось",
+      "description": "Рис, норі, сир філадельфія, огірок, лосось копчений, сир, сирний соус, червона ікра",
+      "price": 180,
+      "image": "imgs/placeholder.jpg",
+      "weight": 258,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 13,
+      "name": "Унагі блек",
+      "description": "Рис, норі, сир філадельфія, чорнило каракатиці, вугор, огірок, сир, соус унагі, чорний кунжут",
+      "price": 115,
+      "image": "imgs/placeholder.jpg",
+      "weight": 248,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 14,
+      "name": "Рол 'Пітсбург'",
+      "description": "Рис, норі, кальмар, ікра тобіко, авокадо, огірок, сир філадельфія",
+      "price": 164,
+      "image": "imgs/placeholder.jpg",
+      "weight": 220,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 15,
+      "name": "Унагі рол",
+      "description": "Рис, норі, вугор, огірок, авокадо, сир, сир філадельфія, стружка темпура",
+      "price": 159,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 16,
+      "name": "Мон рол",
+      "description": "Рис, норі, тунець, огірок, авокадо, сир філадельфія, кунжут",
+      "price": 140,
+      "image": "imgs/placeholder.jpg",
+      "weight": 195,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 17,
+      "name": "Ханамі рол",
+      "description": "Рис, норі, креветка, стружка темпура, огірок, соус спайс, ікра тобіко",
+      "price": 159,
+      "image": "imgs/placeholder.jpg",
+      "weight": 195,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 18,
+      "name": "Токайдо рол",
+      "description": "Рис, норі, лосось, огірок, ікра тобіко, сир філадельфія",
+      "price": 159,
+      "image": "imgs/placeholder.jpg",
+      "weight": 185,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 19,
+      "name": "Токіо рол",
+      "description": "Рис, норі, гребінець, огірок, соус спайс, ікра масаго, стружка тунця",
+      "price": 149,
+      "image": "imgs/placeholder.jpg",
+      "weight": 178,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 20,
+      "name": "Окарі",
+      "description": "Рис, норі, огірок, томаго, креветка, кальмар, соус спайс",
+      "price": 155,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 21,
+      "name": "Ізумі рол",
+      "description": "Рис, норі, окунь, огірок, майонез, кунжут, стружка тунця",
+      "price": 119,
+      "image": "imgs/placeholder.jpg",
+      "weight": 170,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 22,
+      "name": "Америка рол",
+      "description": "Рис, норі, вугор копчений, лосось копчений, огірок, авокадо, сир філадельфія, кунжут, соус унагі",
+      "price": 245,
+      "image": "imgs/placeholder.jpg",
+      "weight": 230,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 23,
+      "name": "Канадський рол",
+      "description": "Рис, норі, вугор копчений, лосось копчений, сир філадельфія, огірок, авокадо, кунжут, соус унагі",
+      "price": 259,
+      "image": "imgs/placeholder.jpg",
+      "weight": 250,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 24,
+      "name": "Арізона рол",
+      "description": "Рис, норі, лосось копчений, стружка темпура, огірок, авокадо, соус унагі, сир філадельфія",
+      "price": 163,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 25,
+      "name": "Каліфорнія тобіко",
+      "description": "Рис, норі, крабові палички, огірок, авокадо, ікра тобіко",
+      "price": 140,
+      "image": "imgs/placeholder.jpg",
+      "weight": 195,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 26,
+      "name": "Макі креветка",
+      "description": "Рис, норі, креветка",
+      "price": 69,
+      "image": "imgs/placeholder.jpg",
+      "weight": 100,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 27,
+      "name": "Макі з лососем",
+      "description": "Рис, норі, лосось",
+      "price": 71,
+      "image": "imgs/placeholder.jpg",
+      "weight": 106,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 28,
+      "name": "Макі лосось копчений",
+      "description": "Рис, норі, лосось копчений",
+      "price": 81,
+      "image": "imgs/placeholder.jpg",
+      "weight": 100,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 29,
+      "name": "Рол з авокадо",
+      "description": "Рис, норі, авокадо, кунжут",
+      "price": 62,
+      "image": "imgs/placeholder.jpg",
+      "weight": 106,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 30,
+      "name": "Макі з тунцем",
+      "description": "Рис, норі, тунець",
+      "price": 79,
+      "image": "imgs/placeholder.jpg",
+      "weight": 106,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 31,
+      "name": "Хіяші рол",
+      "description": "Рис, норі, водорості хіяші",
+      "price": 50,
+      "image": "imgs/placeholder.jpg",
+      "weight": 100,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 32,
+      "name": "Рол з вугром",
+      "description": "Рис, норі, вугор, соус унагі, кунжут",
+      "price": 89,
+      "image": "imgs/placeholder.jpg",
+      "weight": 110,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 33,
+      "name": "Макі окунь",
+      "description": "Рис, норі, окунь",
+      "price": 59,
+      "image": "imgs/placeholder.jpg",
+      "weight": 100,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 34,
+      "name": "Рол з огірком",
+      "description": "Рис, норі, огірок, кунжут",
+      "price": 49,
+      "image": "imgs/placeholder.jpg",
+      "weight": 106,
+      "isNew": "",
+      "onSale": ""
+    },
+
+    {
+      "id": 35,
+      "name": "Рол Ебі Блек",
+      "description": "Рис з чорнилом каракатиці, норі, креветка, сир філадельфія, лист салата",
+      "price": 149,
+      "image": "imgs/placeholder.jpg",
+      "weight": 180,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 36,
+      "name": "Рол Тако",
+      "description": "Рис, норі, восьминіг, огірок, соус спайс, томаго",
+      "price": 189,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 37,
+      "name": "Рол Сакура",
+      "description": "Рис з чорнилом каракатиці, норі, вугор, огірок, сир філадельфія",
+      "price": 175,
+      "image": "imgs/placeholder.jpg",
+      "weight": 245,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 38,
+      "name": "Рол Колорадо",
+      "description": "Рис, норі, лосось, вугор, огірок, сир філадельфія, кунжут, ікра тобіко",
+      "price": 225,
+      "image": "imgs/placeholder.jpg",
+      "weight": 215,
+      "isNew": "",
+      "onSale": ""
+    },
+
+    {
+      "id": 39,
+      "name": "Грін рол",
+      "description": "Рис, норі, лосось, сир філадельфія, соус спайс, чука",
+      "price": 162,
+      "image": "imgs/placeholder.jpg",
+      "weight": 190,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 40,
+      "name": "Рол Магуро",
+      "description": "Рис, норі, тунець у власному соку, авокадо, кунжут",
+      "price": 128,
+      "image": "imgs/placeholder.jpg",
+      "weight": 170,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 41,
+      "name": "Рол Аляска",
+      "description": "Рис, рисовий папір, вугор, мідії, лист салата, сир філадельфія, соус унагі",
+      "price": 165,
+      "image": "imgs/placeholder.jpg",
+      "weight": 190,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 42,
+      "name": "Танейма унагі",
+      "description": "Рис, норі, вугор, огірок, сир філадельфія, соус унагі, сир, кунжут",
+      "price": 199,
+      "image": "imgs/placeholder.jpg",
+      "weight": 225,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 43,
+      "name": "Танейма з лососем",
+      "description": "Рис, норі, лосось, огірок, сир філадельфія, ікра червона, майонез",
+      "price": 159,
+      "image": "imgs/placeholder.jpg",
+      "weight": 215,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 44,
+      "name": "Танейма з лососем копченим",
+      "description": "Рис, норі, лосось копчений, огірок, сир філадельфія, сир, кунжут чорний, льон, майонез",
+      "price": 149,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 45,
+      "name": "Рол футо макі окунь",
+      "description": "Рис, норі, окунь, помідор, сир філадельфія, цибуля зелена, тамаго, ікра тобіко",
+      "price": 145,
+      "image": "imgs/placeholder.jpg",
+      "weight": 230,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 46,
+      "name": "Хаманіші",
+      "description": "Рис, норі, стружка темпурна, сир філадельфія, креветка, вугор, огірок, горіховий соус, кунжут чорний",
+      "price": 170,
+      "image": "imgs/placeholder.jpg",
+      "weight": 230,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 47,
+      "name": "Рол футо макі мідії",
+      "description": "Рис, норі, мідії, сир філадельфія, лист салата, огірок, ікра червона, кунжут",
+      "price": 163,
+      "image": "imgs/placeholder.jpg",
+      "weight": 250,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 48,
+      "name": "Мідія рол",
+      "description": "Рис, норі, огірок, мідії, сир філадельфія, стружка тунця",
+      "price": 119,
+      "image": "imgs/placeholder.jpg",
+      "weight": 190,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 49,
+      "name": "Адзаяка",
+      "description": "Рис, норі, сир філадельфія, огірок, окунь, ікра лосося, соус спайс, ікра тобіко",
+      "price": 192,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 50,
+      "name": "Аніме",
+      "description": "Рис, норі, стружка тунця, огірок, кальмар, соус спайс",
+      "price": 129,
+      "image": "imgs/placeholder.jpg",
+      "weight": 170,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 51,
+      "name": "Танукі спайс",
+      "description": "Рис, норі, кунжут, лосось копчений, огірок, соус спайс,",
+      "price": 139,
+      "image": "imgs/placeholder.jpg",
+      "weight": 180,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 52,
+      "name": "Банкай",
+      "description": "Рис, норі, темпурна стружка, лосось, креветка, огірок, сир філадельфія",
+      "price": 165,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 53,
+      "name": "Султан",
+      "description": "Рис, норі, сир філадельфія, авокадо, сир, зернята гарбуза",
+      "price": 147,
+      "image": "imgs/placeholder.jpg",
+      "weight": 185,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 54,
+      "name": "Ебі Голд",
+      "description": "Рис, норі, сир філадельфія, креветка, огірок, авокадо, соус чілі",
+      "price": 199,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+
+    {
+      "id": 55,
+      "name": "Чіз Сурімі",
+      "description": "Рис, норі, сир філадельфія, крабова паличка, огірок, кунжут, соус чілі",
+      "price": 145,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 56,
+      "name": "Кіото",
+      "description": "Рис, норі, сир філадельфія, огірок, тунець, чорнило каракатиці, ікра тобіко, майонез",
+      "price": 150,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 57,
+      "name": "Боніто",
+      "description": "Рис, норі, сир філадельфія, лист салата, кальмар, мідії, чорнило каракатиці, кунжут, соус спайс",
+      "price": 150,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 58,
+      "name": "Тайфун",
+      "description": "Рис, норі, сир філадельфія, огірок, ікра тобіко, тунець, лосось",
+      "price": 240,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 59,
+      "name": "Фіш рол",
+      "description": "рис, норі, сир Філадельфія, огірок, тунець, лосось, креветка, тосторний сир, сирний соус, мигдалеві пластівці",
+      "price": 240,
+      "image": "imgs/placeholder.jpg",
+      "weight": 350,
+      "isNew": true,
+      "onSale": ""
+    },
+    {
+      "id": 60,
+      "name": "Голден рол",
+      "description": "рис, норі, сир Філадельфія, авокадо, лосось, креветка",
+      "price": 260,
+      "image": "imgs/placeholder.jpg",
+      "weight": 390,
+      "isNew": true,
+      "onSale": ""
+    },
+    {
+      "id": 61,
+      "name": "Унагі Сезам",
+      "description": "рис, норі, кунжут, сир філадельфія, ікра тобіко, вугор, огірок, соус унагі",
+      "price": 165,
+      "image": "imgs/placeholder.jpg",
+      "weight": 270,
+      "isNew": true,
+      "onSale": ""
+    },
+    {
+      "id": 62,
+      "name": "Наомі",
+      "description": "рис, норі, кунжут, сир філадельфія, ікра тобіко, огірок, соус чілі, креветка, тостерний сир",
+      "price": 170,
+      "image": "imgs/placeholder.jpg",
+      "weight": 300,
+      "isNew": true,
+      "onSale": ""
+    }
+  ],
+  "hot": [
+    {
+      "id": 1,
+      "name": "Хотто з лососем",
+      "description": "Рис, норі, стружка темпурна, лосось, соус спайс, помідори, сир, авокадо, томаго",
+      "price": 140,
+      "image": "imgs/placeholder.jpg",
+      "weight": 235,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Хотто з креветкою",
+      "description": "Рис, норі, стружка темпурна, креветка, крабові палички, авокадо, майонез, сир",
+      "price": 195,
+      "image": "imgs/placeholder.jpg",
+      "weight": 190,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Рол Хотто 'Унагі'",
+      "description": "Рис, норі, вугор, сир філадельфія, томаго, огірок, соус спайс",
+      "price": 175,
+      "image": "imgs/placeholder.jpg",
+      "weight": 210,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 4,
+      "name": "Ролл Хотто Мідія",
+      "description": "Рис, норі, мідія, сир філадельфія, кунжут, помідор, сир твердий, унагі соус",
+      "price": 140,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 5,
+      "name": "Хотто з Морським окунем",
+      "description": "Рис, норі, окунь, сир філадельфія, ікра тобіко, сир, соус спайс, соус унагі, чорний кунжут",
+      "price": 143,
+      "image": "imgs/placeholder.jpg",
+      "weight": 253,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 6,
+      "name": "Хотто з тунцем",
+      "description": "Рис, норі, тунець, сир філадельфія, огірок, сир, соус спайс, соус унагі, ікра тобіко",
+      "price": 169,
+      "image": "imgs/placeholder.jpg",
+      "weight": 258,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 7,
+      "name": "Хотто Сурімі",
+      "description": "Рис, норі, сир філадельфія, огірок, крабова паличка, мідії, соус спайс, сир твердий, ікра тобіко, чука",
+      "price": 150,
+      "image": "imgs/placeholder.jpg",
+      "weight": 270,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 8,
+      "name": "Хотто Ебі",
+      "description": "Рис, норі, сир філадельфія, огірок, лосось, сир твердий, соус спайс, креветка, соус унагі, ікра тобіко",
+      "price": 235,
+      "image": "imgs/placeholder.jpg",
+      "weight": 250,
+      "isNew": "",
+      "onSale": ""
+    }
+  ],
+  "sushi": [
+    {
+      "id": 1,
+      "name": "Ікра тобіко",
+      "description": "Ікра тобіко, огірок",
+      "price": 56,
+      "image": "imgs/placeholder.jpg",
+      "weight": 36,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Лосось копчений",
+      "description": "Лосось копчений",
+      "price": 45,
+      "image": "imgs/placeholder.jpg",
+      "weight": 33,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Червоний окунь",
+      "description": "Окунь",
+      "price": 39,
+      "image": "imgs/placeholder.jpg",
+      "weight": 33,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 4,
+      "name": "Ікра червона",
+      "description": "Ікра червона, огірок",
+      "price": 75,
+      "image": "imgs/placeholder.jpg",
+      "weight": 36,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 5,
+      "name": "Тигрова креветка",
+      "description": "Креветка",
+      "price": 42,
+      "image": "imgs/placeholder.jpg",
+      "weight": 32,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 6,
+      "name": "Хіяши вакаме",
+      "description": "Салаи японський(чука), соус горіховий",
+      "price": 39,
+      "image": "imgs/placeholder.jpg",
+      "weight": 36,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 7,
+      "name": "Вугор копчений",
+      "description": "Вугор, соус унагі, кунжут",
+      "price": 49,
+      "image": "imgs/placeholder.jpg",
+      "weight": 35,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 8,
+      "name": "Лосось",
+      "description": "Лосось",
+      "price": 42,
+      "image": "imgs/placeholder.jpg",
+      "weight": 32,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 9,
+      "name": "Спайсі з гребінцем",
+      "description": "Гребінець, соус спайс",
+      "price": 55,
+      "image": "imgs/placeholder.jpg",
+      "weight": 38,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 10,
+      "name": "Спайсі з креветкою",
+      "description": "Креветка, соус спайс",
+      "price": 55,
+      "image": "imgs/placeholder.jpg",
+      "weight": 38,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 11,
+      "name": "Спайсі з вугром",
+      "description": "Вугор, соус спайс",
+      "price": 55,
+      "image": "imgs/placeholder.jpg",
+      "weight": 38,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 12,
+      "name": "Спайсі з лососем",
+      "description": "Лосось, соус спайс",
+      "price": 55,
+      "image": "imgs/placeholder.jpg",
+      "weight": 38,
+      "isNew": "",
+      "onSale": ""
+    }
+  ],
+  "philadelfii": [
+    {
+      "id": 1,
+      "name": "Сет Філадельфія",
+      "description": "Філадельфія чілі, філадельфія краб, філадельфія ДеЛюкс, тайфун",
+      "price": 899,
+      "image": "imgs/placeholder.jpg",
+      "weight": 940,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Філадельфія гриль",
+      "description": "Рис, норі, сир філадельфія, огірок, лосось гриль, соус унагі, сирний соус, кунжут",
+      "price": 200,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Філадельфія рол з копченим лососем",
+      "description": "Рис, норі, лосось копчений, огірок, авокадо, сир філадельфія",
+      "price": 225,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 4,
+      "name": "Філадельфія рол",
+      "description": "Рис, норі, лосось, огірок, авокадо, сир філадельфія",
+      "price": 215,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 5,
+      "name": "Філадельфія абсолют",
+      "description": "Рис, норі, огірок, авокадо, лосось, сир філадельфія",
+      "price": 299,
+      "image": "imgs/placeholder.jpg",
+      "weight": 180,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 6,
+      "name": "Філадельфія креветка",
+      "description": "Рис, норі, огірок, авокадо, креветка, сир філадельфія",
+      "price": 199,
+      "image": "imgs/placeholder.jpg",
+      "weight": 220,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 7,
+      "name": "Філадельфія Краб",
+      "description": "Рис, норі, сир філадельфія, огірок, крабова паличка, лосось, ікра тобіко",
+      "price": 225,
+      "image": "imgs/placeholder.jpg",
+      "weight": 230,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 8,
+      "name": "Філадельфія Чілі",
+      "description": "Рис, норі, сир філадельфія, огірок, лосось, соус чілі",
+      "price": 200,
+      "image": "imgs/placeholder.jpg",
+      "weight": 240,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 9,
+      "name": "Філадельфія ДеЛюкс",
+      "description": "Рис, норі, сир філадельфія, креветка, огірок, лосось",
+      "price": 253,
+      "image": "imgs/placeholder.jpg",
+      "weight": 230,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 10,
+      "name": "Філадельфія преміум",
+      "description": "рис, норі, сир філадельфія, ікра тобіко, вугор, лосось",
+      "price": 325,
+      "image": "imgs/placeholder.jpg",
+      "weight": 370,
+      "isNew": true,
+      "onSale": ""
+    }
+  ],
+  "soupes-salades": [
+    {
+      "id": 1,
+      "name": "Хіяши вакаме",
+      "description": "Водорості вакаме, горіховий соус, кунжут",
+      "price": 99,
+      "image": "imgs/placeholder.jpg",
+      "weight": 115,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Кіцуне",
+      "description": "Вугор, огірок, яйце, соус унагі, кунжут",
+      "price": 150,
+      "image": "imgs/placeholder.jpg",
+      "weight": 160,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Якудза",
+      "description": "Креветка, кальмар, огірок, яйце, ікра червона, майонез",
+      "price": 150,
+      "image": "imgs/placeholder.jpg",
+      "weight": 80,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 4,
+      "name": "Суп Місо",
+      "description": "Бульйон 'Місо', сир тофу, водорості вакаме, цибуля зелена",
+      "price": 40,
+      "image": "imgs/placeholder.jpg",
+      "weight": 175,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 5,
+      "name": "Суп Суімоно",
+      "description": "Бульйон 'Суімоно', лосось, окунь, цибуля зелена",
+      "price": 85,
+      "image": "imgs/placeholder.jpg",
+      "weight": 205,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 6,
+      "name": "Суп Унагі",
+      "description": "Бульйон 'Унагі', вугор, водорості вакаме, цибуля зелена, яйце, сир тофу",
+      "price": 95,
+      "image": "imgs/placeholder.jpg",
+      "weight": 220,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 7,
+      "name": "Суп Сяке",
+      "description": "Відварений рис, лосось, рибний бульйон, кунжут, сіль, перець",
+      "price": 89,
+      "image": "imgs/placeholder.jpg",
+      "weight": 250,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 8,
+      "name": "Суп Місо з тунцем",
+      "description": "Бульйон 'Місо', сир тофу, водорості вакаме, цибуля зелена, тунець",
+      "price": 90,
+      "image": "imgs/placeholder.jpg",
+      "weight": 200,
+      "isNew": "",
+      "onSale": ""
+    }
+  ],
+  "extra": [
+    {
+      "id": 1,
+      "name": "Імбир",
+      "description": "Імбир",
+      "price": 10,
+      "image": "imgs/placeholder.jpg",
+      "weight": 20,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 2,
+      "name": "Васабі",
+      "description": "Васабі",
+      "price": 10,
+      "image": "imgs/placeholder.jpg",
+      "weight": 10,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 3,
+      "name": "Соєвий соус",
+      "description": "Соєвий соус",
+      "price": 20,
+      "image": "imgs/placeholder.jpg",
+      "weight": 100,
+      "isNew": "",
+      "onSale": ""
+    },
+    {
+      "id": 1,
+      "name": "Імбир",
+      "description": "Імбир",
+      "price": 20,
+      "image": "imgs/placeholder.jpg",
+      "weight": 30,
+      "isNew": "",
+      "onSale": ""
+    }
+  ]
+}
