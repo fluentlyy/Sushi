@@ -1077,7 +1077,7 @@
       "name": "Філадельфія креветка",
       "description": "Рис, норі, огірок, авокадо, креветка, сир філадельфія",
       "price": 199,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/philadelphia-krevetka.jpg",
       "weight": 220,
       "isNew": "",
       "onSale": ""
@@ -1117,7 +1117,7 @@
       "name": "Філадельфія преміум",
       "description": "рис, норі, сир філадельфія, ікра тобіко, вугор, лосось",
       "price": 325,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/philadelphia-premium.jpg",
       "weight": 370,
       "isNew": true,
       "onSale": ""

@@ -172,7 +172,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 .menu__card {
   background-color: #353733;
@@ -193,9 +193,10 @@ body {
 
 .card__img {
   width: 100%;
-  height: 180px;
+  height: 230px;
   object-fit: cover;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 .card__name {
@@ -256,9 +257,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
-.menu__more-but svg {
+/* .menu__more-but svg {
   transform: rotate(180deg) translateY(7px);
+} */
+.up-svg {
+  transform: rotate(180deg) translateY(7px);
+}
+.rotate {
+  transform: rotate(0) translateY(-7px);
 }
 @keyframes animModal {
   0% {
