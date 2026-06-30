@@ -95,7 +95,7 @@
       "name": "Сет Філадельфія",
       "description": "Філадельфія чілі, філадельфія краб, філадельфія ДеЛюкс, тайфун",
       "price": 899,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/sets/philadelphia.png",
       "weight": 940,
       "isNew": "",
       "onSale": ""
@@ -155,7 +155,7 @@
       "name": "Сет 'Морський'",
       "description": "Інджой, міо, нобу, спайс краб",
       "price": 499,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/sets/morskii.png",
       "weight": 965,
       "isNew": "",
       "onSale": ""
@@ -175,7 +175,7 @@
       "name": "Сет Міні Дракон",
       "description": "Філадельфія 1/2, Філадельфія копчена 1/2, Червоний дракон 1/2, Філадельфія креветка 1/2, Срібний дракон 1/2, Восьминіг 1/2",
       "price": 499,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/sets/mini-drakon.png",
       "weight": 800,
       "isNew": true,
       "onSale": ""
@@ -197,7 +197,7 @@
       "name": "Спайсі краб",
       "description": "Рис, норі, крабова паличка, огірок, сир філадельфія, соус спайс, ікра червона",
       "price": 199,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/spicy-crab.png",
       "weight": 230,
       "isNew": "",
       "onSale": ""
@@ -207,7 +207,7 @@
       "name": "Інджой",
       "description": "Рис, норі, огірок, томаго, сир філадельфія, креветка, соус унагі",
       "price": 140,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/injoi.png",
       "weight": 255,
       "isNew": "",
       "onSale": ""
@@ -217,7 +217,7 @@
       "name": "Міо",
       "description": "Рис, норі, огірок, сир філадельфія, мідія, горіхова паста, чука, кунжут",
       "price": 119,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/mio.png",
       "weight": 255,
       "isNew": "",
       "onSale": ""
@@ -227,7 +227,7 @@
       "name": "Нобу",
       "description": "Рис, норі, огірок, сир філадельфія, кальмар, соус спайс, кунжут чорний",
       "price": 110,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/nobu.png",
       "weight": 255,
       "isNew": "",
       "onSale": ""
@@ -257,7 +257,7 @@
       "name": "Зелений дракон",
       "description": "Рис, норі, вугор копчений, огірок, авокадо, ікра тобіко, кунжут, соус унагі",
       "price": 195,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/zeleniy-drakon.png",
       "weight": 240,
       "isNew": "",
       "onSale": ""
@@ -298,7 +298,7 @@
       "name": "Блек чіз",
       "description": "Рис, норі, чорнило каракатиці, сир філадельфія, огірок, ікра тобіко, креветка, сир, соус спайс, чорний кунжут",
       "price": 119,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/black-cheese.png",
       "weight": 256,
       "isNew": "",
       "onSale": ""
@@ -338,7 +338,7 @@
       "name": "Унагі рол",
       "description": "Рис, норі, вугор, огірок, авокадо, сир, сир філадельфія, стружка темпура",
       "price": 159,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/unagi.png",
       "weight": 210,
       "isNew": "",
       "onSale": ""
@@ -358,7 +358,7 @@
       "name": "Ханамі рол",
       "description": "Рис, норі, креветка, стружка темпура, огірок, соус спайс, ікра тобіко",
       "price": 159,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/hanami.png",
       "weight": 195,
       "isNew": "",
       "onSale": ""
@@ -368,7 +368,7 @@
       "name": "Токайдо рол",
       "description": "Рис, норі, лосось, огірок, ікра тобіко, сир філадельфія",
       "price": 159,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/tokaido.png",
       "weight": 185,
       "isNew": "",
       "onSale": ""
@@ -388,7 +388,7 @@
       "name": "Окарі",
       "description": "Рис, норі, огірок, томаго, креветка, кальмар, соус спайс",
       "price": 155,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/okari.png",
       "weight": 200,
       "isNew": "",
       "onSale": ""
@@ -408,7 +408,7 @@
       "name": "Америка рол",
       "description": "Рис, норі, вугор копчений, лосось копчений, огірок, авокадо, сир філадельфія, кунжут, соус унагі",
       "price": 245,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/amerika.png",
       "weight": 230,
       "isNew": "",
       "onSale": ""
@@ -418,7 +418,7 @@
       "name": "Канадський рол",
       "description": "Рис, норі, вугор копчений, лосось копчений, сир філадельфія, огірок, авокадо, кунжут, соус унагі",
       "price": 259,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/kanadskii.png",
       "weight": 250,
       "isNew": "",
       "onSale": ""
@@ -438,7 +438,7 @@
       "name": "Каліфорнія тобіко",
       "description": "Рис, норі, крабові палички, огірок, авокадо, ікра тобіко",
       "price": 140,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/kalifornia.png",
       "weight": 195,
       "isNew": "",
       "onSale": ""
@@ -448,7 +448,7 @@
       "name": "Макі креветка",
       "description": "Рис, норі, креветка",
       "price": 69,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/maki-krevetka.png",
       "weight": 100,
       "isNew": "",
       "onSale": ""
@@ -549,7 +549,7 @@
       "name": "Рол Тако",
       "description": "Рис, норі, восьминіг, огірок, соус спайс, томаго",
       "price": 189,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/tako.png",
       "weight": 200,
       "isNew": "",
       "onSale": ""
@@ -569,7 +569,7 @@
       "name": "Рол Колорадо",
       "description": "Рис, норі, лосось, вугор, огірок, сир філадельфія, кунжут, ікра тобіко",
       "price": 225,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/kolorado.png",
       "weight": 215,
       "isNew": "",
       "onSale": ""
@@ -700,7 +700,7 @@
       "name": "Танукі спайс",
       "description": "Рис, норі, кунжут, лосось копчений, огірок, соус спайс,",
       "price": 139,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/tanuki-spice.png",
       "weight": 180,
       "isNew": "",
       "onSale": ""
@@ -771,7 +771,7 @@
       "name": "Тайфун",
       "description": "Рис, норі, сир філадельфія, огірок, ікра тобіко, тунець, лосось",
       "price": 240,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/taifun.png",
       "weight": 240,
       "isNew": "",
       "onSale": ""
@@ -791,7 +791,7 @@
       "name": "Голден рол",
       "description": "рис, норі, сир Філадельфія, авокадо, лосось, креветка",
       "price": 260,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/golden.png",
       "weight": 390,
       "isNew": true,
       "onSale": ""
@@ -801,7 +801,7 @@
       "name": "Унагі Сезам",
       "description": "рис, норі, кунжут, сир філадельфія, ікра тобіко, вугор, огірок, соус унагі",
       "price": 165,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/unagi-sezam.png",
       "weight": 270,
       "isNew": true,
       "onSale": ""
@@ -811,7 +811,7 @@
       "name": "Наомі",
       "description": "рис, норі, кунжут, сир філадельфія, ікра тобіко, огірок, соус чілі, креветка, тостерний сир",
       "price": 170,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/rolls/naomi.png",
       "weight": 300,
       "isNew": true,
       "onSale": ""
@@ -823,7 +823,7 @@
       "name": "Хотто з лососем",
       "description": "Рис, норі, стружка темпурна, лосось, соус спайс, помідори, сир, авокадо, томаго",
       "price": 140,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/hot/hotto-losos.png",
       "weight": 235,
       "isNew": "",
       "onSale": ""
@@ -833,7 +833,7 @@
       "name": "Хотто з креветкою",
       "description": "Рис, норі, стружка темпурна, креветка, крабові палички, авокадо, майонез, сир",
       "price": 195,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/hot/hotto-krevetka.png",
       "weight": 190,
       "isNew": "",
       "onSale": ""
@@ -843,7 +843,7 @@
       "name": "Рол Хотто 'Унагі'",
       "description": "Рис, норі, вугор, сир філадельфія, томаго, огірок, соус спайс",
       "price": 175,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/hot/hotto-midia.png",
       "weight": 210,
       "isNew": "",
       "onSale": ""
@@ -853,7 +853,7 @@
       "name": "Ролл Хотто Мідія",
       "description": "Рис, норі, мідія, сир філадельфія, кунжут, помідор, сир твердий, унагі соус",
       "price": 140,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/hot/hotto-midia.png",
       "weight": 200,
       "isNew": "",
       "onSale": ""
@@ -873,7 +873,7 @@
       "name": "Хотто з тунцем",
       "description": "Рис, норі, тунець, сир філадельфія, огірок, сир, соус спайс, соус унагі, ікра тобіко",
       "price": 169,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/hot/hotto-tunez.jpg",
       "weight": 258,
       "isNew": "",
       "onSale": ""
@@ -1027,7 +1027,7 @@
       "name": "Сет Філадельфія",
       "description": "Філадельфія чілі, філадельфія краб, філадельфія ДеЛюкс, тайфун",
       "price": 899,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/sets/philadelphia.png",
       "weight": 940,
       "isNew": "",
       "onSale": ""
@@ -1057,7 +1057,7 @@
       "name": "Філадельфія рол",
       "description": "Рис, норі, лосось, огірок, авокадо, сир філадельфія",
       "price": 215,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/philadelphia/philadelphia.png",
       "weight": 240,
       "isNew": "",
       "onSale": ""
@@ -1077,7 +1077,7 @@
       "name": "Філадельфія креветка",
       "description": "Рис, норі, огірок, авокадо, креветка, сир філадельфія",
       "price": 199,
-      "image": "imgs/philadelphia-krevetka.jpg",
+      "image": "imgs/philadelphia/philadelphia-krevetka.jpg",
       "weight": 220,
       "isNew": "",
       "onSale": ""
@@ -1087,7 +1087,7 @@
       "name": "Філадельфія Краб",
       "description": "Рис, норі, сир філадельфія, огірок, крабова паличка, лосось, ікра тобіко",
       "price": 225,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/philadelphia/philadelphia-krab.png",
       "weight": 230,
       "isNew": "",
       "onSale": ""
@@ -1097,7 +1097,7 @@
       "name": "Філадельфія Чілі",
       "description": "Рис, норі, сир філадельфія, огірок, лосось, соус чілі",
       "price": 200,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/philadelphia/philadelphia-chili.png",
       "weight": 240,
       "isNew": "",
       "onSale": ""
@@ -1107,7 +1107,7 @@
       "name": "Філадельфія ДеЛюкс",
       "description": "Рис, норі, сир філадельфія, креветка, огірок, лосось",
       "price": 253,
-      "image": "imgs/placeholder.jpg",
+      "image": "imgs/philadelphia/philadelphia-delux.png",
       "weight": 230,
       "isNew": "",
       "onSale": ""
@@ -1117,7 +1117,7 @@
       "name": "Філадельфія преміум",
       "description": "рис, норі, сир філадельфія, ікра тобіко, вугор, лосось",
       "price": 325,
-      "image": "imgs/philadelphia-premium.jpg",
+      "image": "imgs/philadelphia/philadelphia-premium.png",
       "weight": 370,
       "isNew": true,
       "onSale": ""

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -22,8 +22,8 @@
 
         <div class="header__nav">
           <a href="" class="nav__item">Оплата й доставка</a>
-          <a href="" class="nav__item">Залишити відгук</a>
-          <a href="" class="nav__item">Де нас знайти?</a>
+          <a href="?category=report" class="nav__item">Залишити відгук</a>
+          <a href="?#location" class="nav__item">Де нас знайти?</a>
         </div>
         <div class="header__boxes">
           <div class="graphic">
@@ -38,7 +38,9 @@
           </div>
           <div class="call-us header__box">
             <span class="call-us__txt">Телефонуй за номером</span>
-            <span class="call-us__phone bold red">068-674-18-20</span>
+            <a href="tel:+380686741820" class="call-us__phone bold red"
+              >068-674-18-20</a
+            >
           </div>
         </div>
       </div>
@@ -156,7 +158,7 @@
           </div>
         </div>
       </section>
-      <section class="location _container">
+      <section id="location" class="location _container">
         <h2 class="_title">Де нас знайти?</h2>
         <iframe
           class="location__map"
@@ -260,6 +262,8 @@
 
     <script src="./js/menu.js"></script>
     <script src="./js/header.js"></script>
-    <script src="./js/anchors.js"></script>
+    <script src="./js/cart.js"></script>
   </body>
 </html>
+
+<span class="cart-bot__delivery"></span>
