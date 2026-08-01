@@ -854,6 +854,9 @@ body {
     flex-direction: column;
     box-sizing: border-box;
   }
+  .cart__modal {
+    height: calc(100% - 32px);
+  }
   .modal__img {
     width: 100%;
   }
