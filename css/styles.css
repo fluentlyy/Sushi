@@ -12,6 +12,9 @@ body {
   background: #2a2c29;
   position: relative;
 }
+.wrapper {
+  padding: 0 20px;
+}
 ._container {
   max-width: 1440px;
   margin: 0 auto;
@@ -36,17 +39,26 @@ body {
   box-shadow: 0 1px 25px #1a1a1a;
   transform: translateY(-79px);
 }
+.header__position-mobile {
+  box-shadow: 0 1px 25px #1a1a1a;
+  transform: translateY(-107px);
+}
+.header__position-mobile-small {
+  box-shadow: 0 1px 25px #1a1a1a;
+  transform: translateY(-126px);
+}
 /* .header__hidden {
   transform: translateY(-79px);
 } */
 .header__body {
   max-width: 1440px;
-  padding: 10px 0;
+  padding: 10px 20px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  /* box-sizing: border-box; */
 }
 .logo {
   display: flex;
@@ -136,9 +148,12 @@ body {
 .arrow__appear {
   opacity: 1;
 }
+.arrow__appear-mobile {
+  opacity: 1;
+}
 .catalog__nav {
   max-width: 1440px;
-  padding: 15px 0;
+  padding: 15px 20px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -268,13 +283,13 @@ body {
 .rotate {
   transform: rotate(0) translateY(-7px);
 }
-@keyframes animModal {
+/* @keyframes animModal {
   0% {
     transform: translate(-50%, 100%);
   }
   100% {
   }
-}
+} */
 .menu__modal {
   width: 50%;
   height: auto;
@@ -384,11 +399,18 @@ body {
 }
 .cart__catalog {
   width: 100%;
+  height: 170px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  scrollbar-width: thin;
+  scrollbar-color: #666666 transparent;
 }
+
 .cart-catalog__item {
   width: 100%;
   height: 75px;
@@ -401,6 +423,7 @@ body {
 }
 .catalog__item-img {
   height: 100%;
+  border-radius: 5px;
 }
 .catalog__item-name {
 }
@@ -543,6 +566,7 @@ body {
   align-items: center;
   gap: 5px;
 }
+
 .about-us {
   display: flex;
   align-items: center;
@@ -574,81 +598,196 @@ body {
   flex-direction: column;
   gap: 15px;
 }
-._title {
-}
+
 .location__map {
   width: 100%;
-  height: 400px;
+  height: a;
+  aspect-ratio: 16 / 9;
 }
 
+.cart__from {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__box:nth-child(1) {
+  margin-bottom: 10px;
+}
+.form__input {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid var(--orange);
+  padding: 4px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: var(--main-font);
+}
+.ordering {
+  height: 23%;
+}
+
+.submit__order {
+  width: 100%;
+  margin-top: 30px;
+}
+.footer-mobile {
+  display: none;
+}
 /* --- Адаптивні стилі --- */
 
-/* Планшети (до 1024px) */
-@media (max-width: 1024px) {
-  ._container {
-    padding: 75px 20px 0 20px;
+@media (max-width: 1480px) {
+  .header__body {
+    font-size: 15px;
   }
-  .header__body,
-  .catalog__nav,
-  .menu,
-  .footer__body {
-    padding-left: 15px;
-    padding-right: 15px;
+  .logo__txt-big {
+    font-size: 22px;
   }
-
+  .logo__txt-small {
+    font-size: 15px;
+  }
+  .logo__img {
+    width: 90px;
+  }
   .header__nav {
-    gap: 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
-
-  .header__boxes {
-    gap: 25px;
+  .footer__body-nav .nav__item {
+    font-size: 15px;
   }
-
-  .menu__card {
-    width: calc(50% - 10px); /* Дві картки в ряд */
-  }
-
-  .about-us {
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-us__content {
-    width: 100%;
-    padding-left: 0;
-    border-left: none;
-    align-items: center;
-  }
-
-  .footer__top {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+  .footer-contacts__item {
+    font-size: 15px;
   }
 }
-
-/* Мобільні пристрої - великі (до 768px) */
-@media (max-width: 768px) {
+@media (max-width: 1430px) {
   .header__body {
     flex-direction: column;
     gap: 20px;
   }
-
+  .header-mobile__info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
   .header__nav {
-    display: none; /* Ховаємо навігацію, зазвичай тут з'являється бургер-меню */
+    gap: 50px;
   }
-
-  .header__position {
-    transform: translateY(0); /* Забираємо анімацію ховання хедера */
+  .catalog__nav {
+    justify-content: center;
+    gap: 60px;
   }
-  .header {
-    position: relative;
+  ._title {
+    font-size: 2.2rem;
   }
+  ._paragraph {
+    font-size: 1.2rem;
+  }
+  .footer__nav-title {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1375px) {
   .main {
-    padding-top: 20px;
+    margin: 0 auto;
   }
+  .menu {
+    max-width: 884px;
+    width: 100%;
+    padding-top: 75px;
+  }
+}
+@media (max-width: 1200px) {
+  .catalog__nav {
+    gap: 50px;
+  }
+}
+@media (max-width: 1113px) {
+  .catalog__nav {
+    font-size: 15px;
+  }
+  ._title {
+    font-size: 2.1rem;
+  }
+  ._paragraph {
+    font-size: 1.1rem;
+  }
+  .footer__nav-title {
+    font-size: 1.1rem;
+  }
+  .footer__bot {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1070px) {
+  .arrow__appear-mobile {
+    display: none;
+  }
+}
+@media (max-width: 1002px) {
+  .catalog__nav {
+    gap: 40px;
+  }
+}
+@media (max-width: 932px) {
+  .catalog__nav {
+    gap: 30px;
+  }
+  ._title {
+    font-size: 2rem;
+  }
+  ._paragraph {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 923px) {
+  .menu ._title {
+    text-align: center;
+  }
+  .menu__card {
+    width: 550px;
+  }
+  .footer__body .footer-mobile {
+    display: flex;
+  }
+  .footer__top {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer__top-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__top-bot {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  .footer-desktop {
+    display: none;
+  }
+}
+@media (max-width: 882px) {
+  .header__nav {
+    display: none;
+  }
+  .header-mobile__info {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 862px) {
   .catalog__nav {
     flex-wrap: wrap;
     gap: 15px;
@@ -659,84 +798,76 @@ body {
     background: #353733;
     border-radius: 8px;
   }
+  .header__position-mobile-small {
+    transform: translateY(0);
+    box-shadow: 0 0px 0px #1a1a1a;
+  }
+  .header {
+    position: relative;
+  }
+  .main {
+    padding: 0;
 
-  .menu__card {
-    width: 100%;
-    max-width: 400px; /* Картки займають повну ширину */
+    .menu {
+      padding-top: 50px;
+    }
   }
+  /* Мобільні пристрої - великі (до 768px) */
+  @media (max-width: 768px) {
+    .header__body {
+      padding: 10px 0;
+    }
+    .about-us {
+      display: none;
+    }
+  }
+  @media (max-width: 595px) {
+  }
+  .graphic {
+    display: none;
+  }
+  /* Мобільні пристрої - малі (до 480px) */
+  @media (max-width: 480px) {
+    .header__boxes {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
 
-  ._title {
-    font-size: 2rem;
-    text-align: center;
-  }
+    ._title {
+      font-size: 1.8rem;
+    }
 
-  .menu__modal {
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    height: 80vh;
-    overflow-y: auto;
-  }
-  .modal__img {
-    width: 80%;
-  }
+    ._paragraph {
+      font-size: 1.1rem;
+    }
 
-  .modal__body-recipe {
-    margin-top: 15px;
-  }
+    .modal__body-title {
+      font-size: 1.8rem;
+    }
 
-  .cart__modal {
-    width: 90%;
-    height: 70%;
-  }
-  .footer__top {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .modal__body-recipe {
+      font-size: 0.95rem;
+    }
 
-  .footer__body-nav,
-  .footer__body-contacts {
-    align-items: center;
-  }
-}
+    .modal-box__price {
+      font-size: 1.4rem;
+    }
 
-/* Мобільні пристрої - малі (до 480px) */
-@media (max-width: 480px) {
-  .header__boxes {
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
-
-  ._title {
-    font-size: 1.8rem;
-  }
-
-  ._paragraph {
-    font-size: 1.1rem;
-  }
-
-  .modal__body-title {
-    font-size: 1.8rem;
-  }
-
-  .modal__body-recipe {
-    font-size: 0.95rem;
-  }
-
-  .modal-box__price {
-    font-size: 1.4rem;
-  }
-
-  .cart-bot__text {
-    font-size: 1rem;
-  }
-  .cart-bot__price {
-    font-size: 1.1rem;
-  }
-  .footer__bot {
-    text-align: center;
+    .cart-bot__text {
+      font-size: 1rem;
+    }
+    .cart-bot__price {
+      font-size: 1.1rem;
+    }
+    .footer__bot {
+      text-align: center;
+    }
+    .footer__body-nav {
+      display: none;
+    }
+    .header__box {
+      flex-direction: row;
+    }
   }
 }

@@ -8,103 +8,49 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header__body">
-        <a href="?"
-          ><div class="logo">
-            <img src="./imgs/logo.png" alt="" class="logo__img" />
-            <div class="logo__txt">
-              <span class="logo__txt-big red">SUSHI BAR</span>
-              <span class="logo__txt-small red">BERDICHEV</span>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__body">
+          <a href="?"
+            ><div class="logo">
+              <img src="./imgs/logo.png" alt="" class="logo__img" />
+              <div class="logo__txt">
+                <span class="logo__txt-big red">SUSHI BAR</span>
+                <span class="logo__txt-small red">BERDICHEV</span>
+              </div>
+            </div></a
+          >
+
+          <div class="header__nav">
+            <a href="" class="nav__item">Оплата й доставка</a>
+            <a href="?category=report" class="nav__item">Залишити відгук</a>
+            <a href="?#location" class="nav__item">Де нас знайти?</a>
+          </div>
+          <div class="header__boxes">
+            <div class="graphic">
+              <span class="graphic__txt">Без вихідних</span>
+              <span class="graphic__time bold">11:00 - 21:00</span>
             </div>
-          </div></a
-        >
-
-        <div class="header__nav">
-          <a href="" class="nav__item">Оплата й доставка</a>
-          <a href="?category=report" class="nav__item">Залишити відгук</a>
-          <a href="?#location" class="nav__item">Де нас знайти?</a>
-        </div>
-        <div class="header__boxes">
-          <div class="graphic">
-            <span class="graphic__txt">Без вихідних</span>
-            <span class="graphic__time bold">11:00 - 21:00</span>
-          </div>
-          <div class="delivery header__box">
-            <span class="delivery__txt"
-              >Доставка <span class="bold">від 350грн</span></span
-            >
-            <span class="delivery__free bold red">Безкоштовна</span>
-          </div>
-          <div class="call-us header__box">
-            <span class="call-us__txt">Телефонуй за номером</span>
-            <a href="tel:+380686741820" class="call-us__phone bold red"
-              >068-674-18-20</a
-            >
+            <div class="delivery header__box">
+              <span class="delivery__txt"
+                >Доставка <span class="bold">від 350грн</span></span
+              >
+              <span class="delivery__free bold red">Безкоштовна</span>
+            </div>
+            <div class="call-us header__box">
+              <span class="call-us__txt">Телефонуй за номером</span>
+              <a href="tel:+380686741820" class="call-us__phone bold red"
+                >068-674-18-20</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-      <div class="catalog">
-        <a href="#"
-          ><svg
-            class="catalog__top"
-            width="32px"
-            height="32px"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M12 16V8M12 8L15.5 11.5M12 8L8.5 11.5"
-                stroke="#b1b1b1"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-              <path
-                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-                stroke="#b1b1b1"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </g></svg
-        ></a>
-
-        <nav class="catalog__nav">
-          <a href="?category=sets" class="catalog__item">Сети</a>
-          <a href="?category=rolls" class="catalog__item">Роли</a>
-          <a href="?category=hot" class="catalog__item">Гарячі роли</a>
-          <a href="?category=sushi" class="catalog__item">Суші</a>
-          <a href="?category=philadelfii" class="catalog__item">Філадельфії</a>
-          <a href="?category=soupes-salades" class="catalog__item"
-            >Гаряче та салати</a
-          >
-          <a href="" class="catalog__item">Напої</a>
-          <a href="?category=extra" class="catalog__item">Доповнення</a>
-        </nav>
-      </div>
-    </header>
-
-    <main class="main">
-      <section class="menu">
-        <h2 class="_title"></h2>
-        <ul class="menu__list"></ul>
-      </section>
-      <section class="about-us _container">
-        <h2 class="_title">Хто ми такі і чому ти полюбиш наш суші-бар</h2>
-        <div class="about-us__content">
-          <div class="about-us__box">
-            <svg
-              width="40px"
-              height="40px"
+        <div class="catalog">
+          <a href="#"
+            ><svg
+              class="catalog__top"
+              width="32px"
+              height="32px"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -117,153 +63,298 @@
               ></g>
               <g id="SVGRepo_iconCarrier">
                 <path
-                  d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z"
-                  fill="#d46c32"
+                  d="M12 16V8M12 8L15.5 11.5M12 8L8.5 11.5"
+                  stroke="#b1b1b1"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 ></path>
-              </g>
-            </svg>
-            <p class="_paragraph">
-              <strong class="bold">Sushi Bar Berdichev</strong> — перший
-              суші-бар у нашому місті. З моменту відкриття ми ставимо собі одну
-              мету — дарувати гостям справжнє задоволення від якісної японської
-              кухні.
-            </p>
-          </div>
-          <div class="about-us__box">
-            <svg
-              width="40px"
-              height="40px"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
                 <path
-                  d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z"
-                  fill="#d46c32"
+                  d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                  stroke="#b1b1b1"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 ></path>
-              </g>
-            </svg>
-            <p class="_paragraph">
-              Ми готуємо кожне замовлення з нуля — лише зі свіжих продуктів,
-              професійно та з турботою. Завдяки локальній доставці ми завжди
-              привозимо роли теплими й смачними.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="location" class="location _container">
-        <h2 class="_title">Де нас знайти?</h2>
-        <iframe
-          class="location__map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.225987073202!2d28.582160177142235!3d49.894560471491474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472cf97c3a3f0fff%3A0x9ff62754c65c21a6!2z0LLRg9C70LjRhtGPINCS0ZbRgtCw0LvRltGPINCU0YPQu9GM0YfQuNC60LAsIDMsINCR0LXRgNC00LjRh9GW0LIsINCW0LjRgtC-0LzQuNGA0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDEzMzAw!5e0!3m2!1sru!2sua!4v1746971063887!5m2!1sru!2sua"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__body">
-        <div class="footer__top">
-          <div class="logo">
-            <img src="./imgs/logo.png" alt="" class="logo__img" />
-            <div class="logo__txt">
-              <span class="logo__txt-big red">SUSHI BAR</span>
-              <span class="logo__txt-small red">BERDICHEV</span>
-            </div>
-          </div>
-          <nav class="footer__body-nav">
-            <h3 class="footer__nav-title">Навігація</h3>
-            <a href="" class="nav__item">Оплата та доставка</a>
-            <a href="" class="nav__item">Залишити відгук</a>
-            <a href="" class="nav__item">Де нас знайти?</a>
+              </g></svg
+          ></a>
+
+          <nav class="catalog__nav">
+            <a href="?category=sets" class="catalog__item">Сети</a>
+            <a href="?category=rolls" class="catalog__item">Роли</a>
+            <a href="?category=hot" class="catalog__item">Гарячі роли</a>
+            <a href="?category=sushi" class="catalog__item">Суші</a>
+            <a href="?category=philadelfii" class="catalog__item"
+              >Філадельфії</a
+            >
+            <a href="?category=soupes-salades" class="catalog__item"
+              >Гаряче та салати</a
+            >
+            <a href="" class="catalog__item">Напої</a>
+            <a href="?category=extra" class="catalog__item">Доповнення</a>
           </nav>
-          <div class="footer__body-contacts">
-            <h3 class="footer__nav-title">Контакти</h3>
-            <span class="footer-contacts__item">📞 068-674-18-20</span>
-            <span class="footer-contacts__item"
-              >📍 Бердичів, вул. Віталія Дульчика, 3</span
-            >
-            <span class="footer-contacts__item">🕐 11:00 – 21:00 щодня</span>
-          </div>
-          <div class="footer__body-social">
-            <a href="https://www.instagram.com/sushibar_berdichev/"
-              ><svg
-                width="40px"
-                height="40px"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
-                    fill="#d46c32"
-                  ></path>
-                  <path
-                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
-                    fill="#d46c32"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
-                    fill="#d46c32"
-                  ></path>
-                </g></svg
-            ></a>
-            <a
-              href="https://www.facebook.com/people/SushiBar-Berdichev/pfbid09xR7pXNbhJbmBAcQk2ex8dU2g4j6752Ssn8b4TTxFFUoaStqzCY8HdqGhHi5dMobl/?mibextid=wwXIfr&rdid=nVCLnwhPBLUW7GuU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18nErRsyn3%2F%3Fmibextid%3DwwXIfr"
-              ><svg
-                width="40px"
-                height="40px"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
-                    fill="#d46c32"
-                  ></path>
-                </g></svg
-            ></a>
-          </div>
         </div>
-        <span class="footer__bot">
-          © 2025 SUSHIBAR Berdichev. Усі права захищено.</span
-        >
-      </div>
-    </footer>
+      </header>
+
+      <main class="main">
+        <section class="menu">
+          <h2 class="_title"></h2>
+          <ul class="menu__list"></ul>
+        </section>
+        <section class="about-us _container">
+          <h2 class="_title">Хто ми такі і чому ти полюбиш наш суші-бар</h2>
+          <div class="about-us__content">
+            <div class="about-us__box">
+              <svg
+                width="40px"
+                height="40px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z"
+                    fill="#d46c32"
+                  ></path>
+                </g>
+              </svg>
+              <p class="_paragraph">
+                <strong class="bold">Sushi Bar Berdichev</strong> — перший
+                суші-бар у нашому місті. З моменту відкриття ми ставимо собі
+                одну мету — дарувати гостям справжнє задоволення від якісної
+                японської кухні.
+              </p>
+            </div>
+            <div class="about-us__box">
+              <svg
+                width="40px"
+                height="40px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z"
+                    fill="#d46c32"
+                  ></path>
+                </g>
+              </svg>
+              <p class="_paragraph">
+                Ми готуємо кожне замовлення з нуля — лише зі свіжих продуктів,
+                професійно та з турботою. Завдяки локальній доставці ми завжди
+                привозимо роли теплими й смачними.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="location" class="location _container">
+          <h2 class="_title">Де нас знайти?</h2>
+          <iframe
+            class="location__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.225987073202!2d28.582160177142235!3d49.894560471491474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472cf97c3a3f0fff%3A0x9ff62754c65c21a6!2z0LLRg9C70LjRhtGPINCS0ZbRgtCw0LvRltGPINCU0YPQu9GM0YfQuNC60LAsIDMsINCR0LXRgNC00LjRh9GW0LIsINCW0LjRgtC-0LzQuNGA0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDEzMzAw!5e0!3m2!1sru!2sua!4v1746971063887!5m2!1sru!2sua"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__body">
+          <div class="footer__top footer-mobile">
+            <div class="footer__top-top">
+              <div class="logo">
+                <img src="./imgs/logo.png" alt="" class="logo__img" />
+                <div class="logo__txt">
+                  <span class="logo__txt-big red">SUSHI BAR</span>
+                  <span class="logo__txt-small red">BERDICHEV</span>
+                </div>
+              </div>
+              <div class="footer__body-social">
+                <a href="https://www.instagram.com/sushibar_berdichev/"
+                  ><svg
+                    width="40px"
+                    height="40px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#d46c32"
+                      ></path>
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#d46c32"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#d46c32"
+                      ></path>
+                    </g></svg
+                ></a>
+                <a
+                  href="https://www.facebook.com/people/SushiBar-Berdichev/pfbid09xR7pXNbhJbmBAcQk2ex8dU2g4j6752Ssn8b4TTxFFUoaStqzCY8HdqGhHi5dMobl/?mibextid=wwXIfr&rdid=nVCLnwhPBLUW7GuU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18nErRsyn3%2F%3Fmibextid%3DwwXIfr"
+                  ><svg
+                    width="40px"
+                    height="40px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                        fill="#d46c32"
+                      ></path>
+                    </g></svg
+                ></a>
+              </div>
+            </div>
+
+            <div class="footer__top-bot">
+              <nav class="footer__body-nav">
+                <h3 class="footer__nav-title">Навігація</h3>
+                <a href="" class="nav__item">Оплата та доставка</a>
+                <a href="" class="nav__item">Залишити відгук</a>
+                <a href="" class="nav__item">Де нас знайти?</a>
+              </nav>
+              <div class="footer__body-contacts">
+                <h3 class="footer__nav-title">Контакти</h3>
+                <span class="footer-contacts__item">📞 068-674-18-20</span>
+                <span class="footer-contacts__item"
+                  >📍 Бердичів, вул. Віталія Дульчика, 3</span
+                >
+                <span class="footer-contacts__item"
+                  >🕐 11:00 – 21:00 щодня</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer__top footer-desktop">
+            <div class="logo">
+              <img src="./imgs/logo.png" alt="" class="logo__img" />
+              <div class="logo__txt">
+                <span class="logo__txt-big red">SUSHI BAR</span>
+                <span class="logo__txt-small red">BERDICHEV</span>
+              </div>
+            </div>
+            <nav class="footer__body-nav">
+              <h3 class="footer__nav-title">Навігація</h3>
+              <a href="" class="nav__item">Оплата та доставка</a>
+              <a href="" class="nav__item">Залишити відгук</a>
+              <a href="" class="nav__item">Де нас знайти?</a>
+            </nav>
+            <div class="footer__body-contacts">
+              <h3 class="footer__nav-title">Контакти</h3>
+              <span class="footer-contacts__item">📞 068-674-18-20</span>
+              <span class="footer-contacts__item"
+                >📍 Бердичів, вул. Віталія Дульчика, 3</span
+              >
+              <span class="footer-contacts__item">🕐 11:00 – 21:00 щодня</span>
+            </div>
+            <div class="footer__body-social">
+              <a href="https://www.instagram.com/sushibar_berdichev/"
+                ><svg
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                      fill="#d46c32"
+                    ></path>
+                    <path
+                      d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                      fill="#d46c32"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                      fill="#d46c32"
+                    ></path>
+                  </g></svg
+              ></a>
+              <a
+                href="https://www.facebook.com/people/SushiBar-Berdichev/pfbid09xR7pXNbhJbmBAcQk2ex8dU2g4j6752Ssn8b4TTxFFUoaStqzCY8HdqGhHi5dMobl/?mibextid=wwXIfr&rdid=nVCLnwhPBLUW7GuU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18nErRsyn3%2F%3Fmibextid%3DwwXIfr"
+                ><svg
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                      fill="#d46c32"
+                    ></path>
+                  </g></svg
+              ></a>
+            </div>
+          </div>
+          <span class="footer__bot">
+            © 2025 SUSHIBAR Berdichev. Усі права захищено.</span
+          >
+        </div>
+      </footer>
+    </div>
 
     <script src="./js/menu.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/cart.js"></script>
   </body>
 </html>
-
-<span class="cart-bot__delivery"></span>
