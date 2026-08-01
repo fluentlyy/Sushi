@@ -860,9 +860,15 @@ body {
   .modal__close-btn {
     display: block;
   }
-  .modal__body-title {
+  .modal__body-recipe {
+    margin-top: 0;
   }
-  .modal__body-weight {
+  .ordering {
+    height: auto;
+    gap: 0;
+  }
+  .ordering ._title {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 595px) {
@@ -870,7 +876,11 @@ body {
     display: none;
   }
 }
-
+@media (max-width: 540px) {
+  .catalog__item-img {
+    display: none;
+  }
+}
 /* Мобільні пристрої - малі (до 480px) */
 @media (max-width: 480px) {
   .logo__img {

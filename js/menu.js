@@ -350,7 +350,7 @@ function openCart() {
     />
   </div>
 
-  <button type="submit" id="submitBtn" class='cart-box__button submit__order'>Замовити дзвінок</button>
+  <button type="submit" id="submitBtn" class='cart-box__button submit__order'>Підтвердити замовлення</button>
 </form>
 
 <p id="responseMessage"></p>
