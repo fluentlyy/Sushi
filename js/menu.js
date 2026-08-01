@@ -173,6 +173,7 @@ function openModal(data, category, itemId) {
   if (!item) return;
 
   modalProduct.innerHTML = `
+  <button class="modal__close-btn">&times;</button>
     <img src="${item.image}" alt="${item.name}" class="modal__img" />
     <div class="modal__body">
       <h2 class="modal__body-title">${item.name}</h2>
@@ -184,6 +185,10 @@ function openModal(data, category, itemId) {
       <span class="modal__body-recipe">Склад: ${item.description}</span>
     </div>
   `;
+
+  modalProduct.querySelector(".modal__close-btn").onclick = () => {
+    closeLayout(modalProduct);
+  };
 
   document.body.appendChild(modalProduct);
 
@@ -225,14 +230,20 @@ function openCart() {
 
   if (cartCatalog.length === 0) {
     modalCart.innerHTML = `
+    <button class="modal__close-btn">&times;</button>
       <h2 class="_title">Кошик</h2>
       <p class="none__cart">Кошик порожній</p>
     `;
+
+    modalCart.querySelector(".modal__close-btn").onclick = () =>
+      closeLayout(modalCart);
+
     openLayout(modalCart);
     return;
   }
 
   modalCart.innerHTML = `
+  <button class="modal__close-btn">&times;</button>
     <h2 class="_title">Кошик</h2>
     <div class="cart__catalog"></div>
     <div class="cart-bot">
@@ -252,6 +263,9 @@ function openCart() {
       </div>
     </div>
   `;
+
+  modalCart.querySelector(".modal__close-btn").onclick = () =>
+    closeLayout(modalCart);
 
   const cartCatalogCont = modalCart.querySelector(".cart__catalog");
   const totalPriceEl = modalCart.querySelector(".cart-bot__price");

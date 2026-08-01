@@ -197,6 +197,7 @@ body {
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
+  cursor: pointer;
 }
 
 .menu__card:hover {
@@ -257,6 +258,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  display: none;
 }
 
 .card__but:hover {
@@ -305,7 +307,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
   border-radius: 16px;
   color: #f2f2f2;
-  animation: animModal 0.2s ease-out forwards;
 }
 
 .modal__img {
@@ -602,7 +603,7 @@ body {
 .location__map {
   width: 100%;
   height: a;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 5;
 }
 
 .cart__from {
@@ -639,6 +640,16 @@ body {
   margin-top: 30px;
 }
 .footer-mobile {
+  display: none;
+}
+.modal__close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  color: #999999;
+  font-size: 30px;
+  cursor: pointer;
   display: none;
 }
 /* --- Адаптивні стилі --- */
@@ -695,6 +706,15 @@ body {
   .footer__nav-title {
     font-size: 1.2rem;
   }
+  .modal__body-title {
+    font-size: 2.1rem;
+  }
+  .modal__body-weight {
+    font-size: 1.2rem;
+  }
+  .modal-box__price {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 1375px) {
   .main {
@@ -704,6 +724,10 @@ body {
     max-width: 884px;
     width: 100%;
     padding-top: 75px;
+  }
+  .menu__modal {
+    max-width: 700px;
+    width: calc(100% - 32px);
   }
 }
 @media (max-width: 1200px) {
@@ -727,6 +751,9 @@ body {
   .footer__bot {
     font-size: 0.8rem;
   }
+  .modal__body-title {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 1070px) {
   .arrow__appear-mobile {
@@ -747,6 +774,9 @@ body {
   }
   ._paragraph {
     font-size: 1rem;
+  }
+  .location__map {
+    aspect-ratio: 16 / 9;
   }
 }
 @media (max-width: 923px) {
@@ -807,67 +837,94 @@ body {
   }
   .main {
     padding: 0;
-
-    .menu {
-      padding-top: 50px;
-    }
   }
-  /* Мобільні пристрої - великі (до 768px) */
-  @media (max-width: 768px) {
-    .header__body {
-      padding: 10px 0;
-    }
-    .about-us {
-      display: none;
-    }
+  .menu {
+    padding-top: 50px;
   }
-  @media (max-width: 595px) {
+}
+/* Мобільні пристрої - великі (до 768px) */
+@media (max-width: 768px) {
+  .header__body {
+    padding: 10px 0;
   }
+  .about-us {
+    display: none;
+  }
+  .menu__modal {
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .modal__img {
+    width: 100%;
+  }
+  .modal__close-btn {
+    display: block;
+  }
+  .modal__body-title {
+  }
+  .modal__body-weight {
+  }
+}
+@media (max-width: 595px) {
   .graphic {
     display: none;
   }
-  /* Мобільні пристрої - малі (до 480px) */
-  @media (max-width: 480px) {
-    .header__boxes {
-      flex-direction: column;
-      gap: 15px;
-      align-items: center;
-    }
+}
 
-    ._title {
-      font-size: 1.8rem;
-    }
+/* Мобільні пристрої - малі (до 480px) */
+@media (max-width: 480px) {
+  .logo__img {
+    width: 85px;
+  }
+  .logo__txt-big {
+    font-size: 20px;
+  }
+  .logo__txt-small {
+    font-size: 14px;
+  }
+  .header__boxes {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
 
-    ._paragraph {
-      font-size: 1.1rem;
-    }
+  ._title {
+    font-size: 1.8rem;
+  }
 
-    .modal__body-title {
-      font-size: 1.8rem;
-    }
+  ._paragraph {
+    font-size: 1.1rem;
+  }
 
-    .modal__body-recipe {
-      font-size: 0.95rem;
-    }
+  .modal__body-title {
+    font-size: 1.8rem;
+  }
 
-    .modal-box__price {
-      font-size: 1.4rem;
-    }
+  .modal__body-recipe {
+    font-size: 0.95rem;
+  }
 
-    .cart-bot__text {
-      font-size: 1rem;
-    }
-    .cart-bot__price {
-      font-size: 1.1rem;
-    }
-    .footer__bot {
-      text-align: center;
-    }
-    .footer__body-nav {
-      display: none;
-    }
-    .header__box {
-      flex-direction: row;
-    }
+  .modal-box__price {
+    font-size: 1.4rem;
+  }
+
+  .cart-bot__text {
+    font-size: 1rem;
+  }
+  .cart-bot__price {
+    font-size: 1.1rem;
+  }
+  .footer__bot {
+    text-align: center;
+  }
+  .footer__body-nav {
+    display: none;
+  }
+  .header__box {
+    flex-direction: row;
+  }
+  .footer__body-social a svg {
+    width: 35px;
+    height: 35px;
   }
 }
